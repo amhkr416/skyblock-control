@@ -8,5 +8,5 @@ backups/
 *.pem
 *id_ed25519*
 *cherry_farm_key*
-pycache/
+__pycache__/
 *.log
