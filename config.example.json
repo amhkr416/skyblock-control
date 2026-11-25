@@ -1,0 +1,12 @@
+{
+  "project_id": "",
+  "team_id": "",
+  "ssh_key_id": "",
+  "image": "",
+  "plan": {
+    "slug": "",
+    "hourly_price": 0,
+    "regions": [],
+    "min_ram": 0
+  }
+}

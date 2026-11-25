@@ -10,17 +10,3 @@ backups/
 *cherry_farm_key*
 pycache/
 *.log
-EOF && cat << 'EOF' > /home/hermes_node/skyblock_control/config.example.json
-{
-  "project_id": "",
-  "team_id": "",
-  "ssh_key_id": "",
-  "image": "",
-  "plan": {
-    "slug": "",
-    "hourly_price": 0,
-    "regions": [],
-    "min_ram": 0
-  }
-}
-EOF && git init -b main && git add . && git status
